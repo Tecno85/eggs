@@ -1,0 +1,28 @@
+html {
+    background: black;
+ }
+ 
+ h1 {
+   color: white;
+   text-align: center;
+   border: 5px solid rgb(122, 221, 22);
+   width: 600px;
+   margin: 50px auto 0 auto;
+   padding: 5px;
+   font-size: 40px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   font-style:italic;
+ }
+ 
+ p {
+   color: white;
+   border: 4px dashed blueviolet;
+   text-align: center;
+   padding: 5px;
+   font-size: 20px;
+   width: 950px;
+   margin: 30px auto 0 auto;
+   padding: 10px;
+   font-weight: 200;
+   font-family:'Courier New', Courier, monospace;
+ }

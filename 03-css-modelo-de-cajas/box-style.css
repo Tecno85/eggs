@@ -1,0 +1,55 @@
+html {
+  background-color: #5e6265;
+}
+
+h1,
+p,
+div {
+  background-color: #dde0e3;
+  color: rgb(18, 18, 18);
+}
+
+h1 {
+  padding: 50px;
+  margin: 50px;
+  border: 10px solid rgb(36, 32, 32);
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding: 15px;
+  border: 12px solid rgb(122, 188, 23);
+  width: 1000px;
+  margin: 0px 0px 30px 150px;
+}
+
+div {
+  padding: 25px;
+  text-align: center;
+  font-size: 20px;
+  border: 8px solid blueviolet;
+}
+
+em,
+strong,
+span {
+  background-color: #84b5ed;
+  color: rgb(18, 18, 18);
+}
+
+em {
+  border: 5px dotted rgb(229, 53, 14);
+  padding: 7px;
+  margin: 5px;
+}
+
+strong {
+  border: 4px dashed rgb(73, 71, 71);
+  padding: 5px;
+}
+
+span {
+  border: 5px double rgb(225, 10, 35);
+  padding: 7px;
+}
