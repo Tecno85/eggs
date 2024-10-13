@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Barra de Navegación */
+.menu-container {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  background-color: #46860a;
+  padding: 20px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #fff;
+  width: 900px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+}
+
+.links {
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.login {
+  margin-left: 20px;
+}
+/* Hasta la clase .login va la barra de navegación */
+
+/* Comienza la sección del logo */
+.header-container {
+  color: #3a3a3a;
+  background-color: #b9eba2;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  height: 300px;
+}
+
+.subscribe {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+  font-size: 19px;
+}
+
+.logo {
+  width: 500px;
+}
+/* Finaliza la sección del logo */
+
+/* Comienza la sección de grip */
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-gird-item {
+  width: 300px;
+}

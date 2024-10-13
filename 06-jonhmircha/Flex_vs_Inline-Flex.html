@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex vs Inline-Flex</title>
+    <style>
+      html {
+        background-color: rgb(61, 59, 59);
+      }
+
+      h2,
+      p {
+        color: #f6f1f1;
+      }
+
+      /* Estilos para el contenedor con display: flex */
+      .flex-container {
+        display: flex;
+        background-color: lightblue;
+        padding: 10px;
+        border: 2px solid blue;
+        /* width: 100%; Ocupa todo el ancho */
+      }
+
+      /* Estilos para el contenedor con display: inline-flex */
+      .inline-flex-container {
+        display: inline-flex;
+        background-color: lightgreen;
+        padding: 10px;
+        border: 2px solid green;
+      }
+
+      /* Estilos comunes para los elementos hijos */
+      .item {
+        background-color: #f0f0f0;
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Contenedor con display: flex</h2>
+
+    <div class="flex-container">
+      <article class="item">Elemento 1</article>
+      <article class="item">Elemento 2</article>
+      <article class="item">Elemento 3</article>
+    </div>
+    <div class="flex-container">
+      <article class="item">Elemento 1</article>
+      <article class="item">Elemento 2</article>
+      <article class="item">Elemento 3</article>
+    </div>
+    <div class="flex-container">
+      <article class="item">Elemento 1</article>
+      <article class="item">Elemento 2</article>
+      <article class="item">Elemento 3</article>
+    </div>
+
+    <h2>Contenedor con display: inline-flex</h2>
+
+    <div class="inline-flex-container">
+      <article class="item">Elemento 1</article>
+      <article class="item">Elemento 2</article>
+      <article class="item">Elemento 3</article>
+    </div>
+    <div class="inline-flex-container">
+      <article class="item">Elemento 1</article>
+      <article class="item">Elemento 2</article>
+      <article class="item">Elemento 3</article>
+    </div>
+    <div class="inline-flex-container">
+      <article class="item">Elemento 1</article>
+      <article class="item">Elemento 2</article>
+      <article class="item">Elemento 3</article>
+    </div>
+
+    <p>Texto al lado del inline-flex container.</p>
+  </body>
+</html>

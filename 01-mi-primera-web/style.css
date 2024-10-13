@@ -1,8 +1,104 @@
-html {
-  background-color: black;
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
-h1 {
-    color: white;
-    text-align: center;
+html {
+  background-color: rgb(21, 21, 21);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  padding: 10px 0px 20px 25px;
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 25px 30px 0px 0px;
+}
+
+.ul li {
+  font-family: "Exo 2", sans-serif;
+  color: rgb(4, 127, 168);
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.acerca-imagen {
+  display: flex;
+  justify-content: center;
+}
+
+.imagen-ivan {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.acerca-de-mi {
+  color: rgb(95, 174, 200);
+  font-family: "Titillium Web", sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+
+.parrafo1 {
+  color: antiquewhite;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px 0px 10px 20px;
+}
+
+.parrafo2 {
+  color: antiquewhite;
+  font-family: "Exo 2", sans-serif;
+  font-size: 18px;
+  padding: 0px 30px 30px 20px;
+  line-height: 1.5;
+}
+
+.seccion-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagen-python {
+  border-radius: 15px;
+  max-width: 500px;
+}
+
+.imagen-skill {
+  width: 350px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.facebook {
+  align-self: center;
+  padding: 30px 0px 0px;
+}
+
+.parrafo-footer {
+  color: antiquewhite;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 5px 0px 20px;
 }

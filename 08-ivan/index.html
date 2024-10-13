@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        html {
+            background-color: #333;
+        }
+
+        .container {
+            background-color: rgb(91, 173, 24);
+            display: flex;
+            flex-direction:row-reverse;
+            border: 1px solid white;
+            margin: 10px;
+        }
+
+        .item {
+            color: rgb(8, 9, 9);
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Arial, sans-serif;
+            font-weight: 600;
+        }
+
+        .container1 {
+            display: inline-flex;
+            flex-direction: row-reverse;
+            border: 1px solid white;
+            margin: 10px;
+        }
+
+        .item1 {
+            color: aliceblue;
+            background-color: rgb(152, 31, 180);
+            font-weight: 600;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <!-- Display:flex -->
+    <div class="container">
+        <article class="item">Item 1</article>
+        <article class="item">Item 2</article>
+        <article class="item">Item 3</article>
+    </div>
+    <div class="container">
+        <article class="item">Item 1</article>
+        <article class="item">Item 2</article>
+        <article class="item">Item 3</article>
+    </div>
+    <div class="container">
+        <article class="item">Item 1</article>
+        <article class="item">Item 2</article>
+        <article class="item">Item 3</article>
+    </div>
+
+    <!-- Display:inline-flex -->
+    <div class="container1">
+        <article class="item1">Item 1</article>
+        <article class="item1">Item 2</article>
+        <article class="item1">Item 3</article>
+    </div>
+    <div class="container1">
+        <article class="item1">Item 1</article>
+        <article class="item1">Item 2</article>
+        <article class="item1">Item 3</article>
+    </div>
+    <div class="container1">
+        <article class="item1">Item 1</article>
+        <article class="item1">Item 2</article>
+        <article class="item1">Item 3</article>
+    </div>
+</body>
+</html>
