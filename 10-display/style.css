@@ -1,0 +1,27 @@
+.cuadrado {
+  display: inline-block;
+  background-color: blueviolet;
+  color: aliceblue;
+  border: 0.1rem solid black;
+  width: 15rem;
+  height: 1.2rem;
+}
+
+p {
+  display: inline-block;
+  background-color: darkgreen;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  color: aliceblue;
+  font-weight: 700;
+}
+
+a {
+  display: block;
+  background-color: darkred;
+  font-size: 1.2rem;
+  color: aliceblue;
+  font-weight: 700;
+  width: 15rem;
+  height: 1.2rem;
+}
