@@ -1,0 +1,65 @@
+* {
+  margin: 0rem 3rem 2rem 3rem;
+  padding: 0;
+  background-color: #0c151d;
+  color: rgba(240, 248, 255, 0.919);
+}
+
+/* font-family: "Exo 2", sans-serif; */
+/* font-family: "Titillium Web", sans-serif; */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(212, 235, 9);
+  /* margin: 0px;
+  padding: 0px; */
+}
+
+.volver {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid rgb(149, 20, 20);
+}
+
+.icono-flexbox {
+  align-self: center;
+  margin: 2rem 0rem 2rem;
+  background-color: gre;
+  border: 2px solid white;
+}
+
+/* Main */
+
+.section-1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  margin-bottom: 5rem;
+  font-family: "Exo 2", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  border: 2px solid wheat;
+}
+
+.imagen-flexbox {
+  align-items: center;
+  border-radius: 2rem;
+  max-width: auto;
+  height: auto;
+}
+
+.parrafo-1 {
+  text-align: justify;
+  font-size: 1.3rem;
+  font-family: "Titillium Web", sans-serif;
+  margin: 2rem 6rem 2rem 4rem;
+  line-height: 2rem;
+}
+
+a {
+  cursor: url(/01-mi-primera-web/img/icon_52.png), auto;
+}

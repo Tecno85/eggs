@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #0c151d;
+  font-family: "Exo 2", sans-serif;
+}
+
+/* Header */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #171f26;
+}
+
+.icon {
+  margin: 1rem 0rem 0rem 4rem;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.612);
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.3rem;
+  padding: 0rem 3.5rem 0px;
+}
+
+.ul li {
+  color: rgba(255, 255, 255, 0.734);
+  list-style: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  cursor: url(/01-mi-primera-web/img/icon_52.png), auto;
+}
+
+a:hover {
+  color: aqua;
+}
+
+/* Header */
+
+/* Main */
+
+.div-imagen-ivan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0rem 0rem;
+}
+
+.imagen-ivan {
+  border-radius: 20%;
+  border: 2px solid rgba(253, 122, 29, 0.855);
+  width: 15%;
+}
+
+.texto-imagen-ivan {
+  color: rgba(255, 255, 255, 0.785);
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2.1rem;
+  text-align: center;
+}
+
+.parrafo-1 {
+  color: rgba(255, 255, 255, 0.893);
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.25rem;
+  text-align: justify;
+  margin: 3rem 0rem 1rem 3.5rem;
+  /* border: 1px solid white; */
+}
+
+.palabra-bienvenido {
+  font-size: 1.35rem;
+}
+
+.parrafo-2 {
+  color: rgba(255, 255, 255, 0.893);
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.12rem;
+  margin: 0rem 4rem 0rem 3.5rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.palabra-negrita {
+  font-size: 1.15rem;
+}
+
+.seccion-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.imagen-lenguajes {
+  border-radius: 1rem;
+  width: 60%;
+  margin: 2rem;
+}
+
+.parrafo-3 {
+  color: rgba(255, 255, 255, 0.893);
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.12rem;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 0rem 4rem 1.5rem 3.5rem;
+}
+
+/* Seccion-4 */
+
+.imagenes-parrafos {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid white; */
+}
+
+.estilos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid white; */
+}
+
+.parrafo {
+  text-align: justify;
+  margin: 2rem 2rem;
+  line-height: 1.3rem;
+}
+
+.all-img {
+  width: 60%;
+}
+
+.img-github {
+  background-color: aliceblue;
+  border-radius: 2rem;
+}
+
+.parrafo {
+  color: aliceblue;
+}
+
+/* Main */
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+}
+
+.class-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook {
+  margin: 0.3rem 0.3rem;
+  border-radius: 8px;
+}
+
+.youtube {
+  margin: 0.3rem 0.3rem;
+  border-radius: 8px;
+}
+
+.linkedin {
+  margin: 0.3rem 0.3rem;
+  border-radius: 8px;
+}
+
+.parrafo-footer {
+  color: rgba(255, 255, 255, 0.893);
+  font-family: "Exo 2", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 0.2rem 0rem 4.5rem;
+  font-size: 0.9rem;
+}
+/*Footer*/
+
+@media (max-width: 768px) {
+  .container {
+    background-color: rgb(49, 48, 48);
+  }
+
+  .texto-imagen-ivan {
+    font-size: 1.2rem;
+  }
+
+  .parrafo-1,
+  .parrafo-2,
+  .palabra-bienvenido,
+  .palabra-negrita,
+  .parrafo-3,
+  .p-github,
+  .p-markdown,
+  .p-git {
+    font-size: 0.85rem;
+  }
+
+  .parrafo {
+    text-align: justify;
+    margin: 1rem 1rem;
+    line-height: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .icon {
+    margin: 1rem 0rem 0rem 4rem;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.612);
+    width: 2rem;
+  }
+
+  .ul {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    padding: 0rem 1.5rem 0px;
+  }
+
+  .ul li {
+    color: rgba(255, 255, 255, 0.734);
+    list-style: none;
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+
+  .icons {
+    width: 50%;
+  }
+
+  .parrafo-footer {
+    color: rgba(255, 255, 255, 0.893);
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0.1rem 0rem 2.5rem;
+    font-size: 0.7rem;
+  }
+}

@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mi primera Página Web</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/01-mi-primera-web/img/icon_49.png">
+  <link rel="stylesheet" href="/01-mi-primera-web/styles/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -20,13 +21,21 @@
     </a>
     <nav>
       <ul class="ul">
-        <a href="/01-mi-primera-web/ejemplo.html">
+        <a href="/01-mi-primera-web/index.html">
           <li>Inicio</li>
         </a>
-        <li><a href="#acerca"></a>Acerca de mi</li>
-        <li><a href="#trabajos"></a>Trabajos</li>
-        <li><a href="#servicios"></a>Servicio</li>
-        <li><a href="#contacto"></a>Contacto</li>
+        <a href="/01-mi-primera-web/flexbox.html">
+          <li>Flexbox</li>
+        </a>
+        <a href="#trabajos">
+          <li>Trabajos</li>
+        </a>
+        <a href="#servicios">
+          <li>Servicio</li>
+        </a>
+        <a href="#contacto">
+          <li>Contacto</li>
+        </a>
       </ul>
     </nav>
   </header>
@@ -44,57 +53,63 @@
       </p>
 
       <p class="parrafo-2">
-        Mi nombre es <strong>Iván Madrid</strong>, Soy Colombiano, estoy
+        Mi nombre es <strong class="palabra-negrita">Iván Madrid</strong>, Soy Colombiano, estoy
         ubicado en la ciudad de Valledupar. Mi meta es ser
         <i>Desarrollador de Software</i>, tener un conocimiento sólido en
         Backend y especializarme en el Frontend. En la actualidad estudio
         Python de manera autodidacta y empecé un Bootcamp con el
-        <strong>SENA</strong> sobre Programación Básica. Además, estoy en
-        este curso sobre <i>Desarrollo Web</i> en <strong>Egg</strong> junto
+        <strong class="palabra-negrita">SENA</strong> sobre Programación Básica. Además, estoy en
+        este curso sobre <i>Desarrollo Web</i> en <strong class="palabra-negrita">Egg</strong> junto
         a ustedes.
       </p>
-
     </section>
 
     <section class="seccion-2">
-      <img src="/01-mi-primera-web/img/logos-2.jpg" alt="Paisaje" class="imagen-python" />
+      <img src="/01-mi-primera-web/img/logos-2.jpg" alt="Lenguajes" class="imagen-lenguajes" />
     </section>
 
     <section class="seccion-3">
-      <p class="parrafo3">
-        Esta imagen fue creada por <strong>Copilot</strong> y hace referencia a lenguajes de programación como
-        <strong>Python</strong> y <strong>JavaScript</strong>,
-        lenguajes de Hipertexto y de estilos como <strong>HTML</strong> y <strong>CSS</strong>. Estos lenguajes son en
+      <p class="parrafo-3">
+        Esta imagen fue creada por <strong class="palabra-negrita">Copilot</strong> y hace referencia a lenguajes de
+        programación como
+        <strong class="palabra-negrita">Python</strong> y <strong class="palabra-negrita">JavaScript</strong>,
+        lenguajes de Hipertexto y de estilos como <strong class="palabra-negrita">HTML</strong> y <strong>CSS</strong>.
+        Estos lenguajes son en
         la actualidad los más demandados
-        por grandes empresas y <strong><i>startups</i></strong>. Si queremos ser desarrolladores con bases sólidas
+        por grandes empresas y <strong class="palabra-negrita"><i>startups</i></strong>. Si queremos ser desarrolladores
+        con bases sólidas
         debemos apropiarnos de
-        tecnologías adicionales como <strong>Markdown</strong>, <strong>Git</strong> y <strong>GitHub</strong>.
+        tecnologías adicionales como <strong class="palabra-negrita">Markdown</strong>, <strong
+          class="palabra-negrita">Git</strong> y <strong class="palabra-negrita">GitHub</strong>.
       </p>
     </section>
 
     <section class="seccion-4">
-      <div class="img-tecnologias">
-        <div class="img-github">
-          <img src="/01-mi-primera-web/img/icon_44.png" alt="Imagen GitHub" class="github" />
-          <p class="p-github">
-            <i><strong>GitHub</strong></i> es una plataforma en línea para alojar y gestionar
+      <div class="imagenes-parrafos">
+
+        <div class="estilos github">
+          <img src="/01-mi-primera-web/img/icon_44.png" alt="Imagen GitHub" class="all-img img-github" />
+          <p class="parrafo p-github">
+            <i><strong class="palabra-negrita">GitHub</strong></i> es una plataforma en línea para alojar y gestionar
             proyectos de software, que permite a los desarrolladores colaborar
             y controlar versiones de su código usando Git.
           </p>
         </div>
-        <div class="img-markdown">
-          <img src="/01-mi-primera-web/img/icon_47.png" alt="Imagen Markdown" class="markdown" />
-          <p class="p-markdown">
-            <i><strong>Markdown</strong></i> es un lenguaje de marcado simple que se usa para
+
+        <div class="estilos markdown">
+          <img src="/01-mi-primera-web/img/icon_47.png" alt="Imagen Markdown" class="all-img markdown" />
+          <p class="parrafo markdown">
+            <i><strong class="palabra-negrita">Markdown</strong></i> es un lenguaje de marcado simple que se usa para
             formatear texto en documentos y sitios web. Permite agregar
             elementos como encabezados, listas, enlaces e imágenes con una
             sintaxis fácil de leer y escribir.
           </p>
         </div>
-        <div class="img-git">
-          <img src="/01-mi-primera-web/img/icon_45.png" alt="Imagen Git" class="git" />
-          <p class="p-git">
-            <i><strong>Git</strong></i> es un sistema de control de versiones que permite a los
+
+        <div class="estilos git">
+          <img src="/01-mi-primera-web/img/icon_45.png" alt="Imagen Git" class="all-img git" />
+          <p class="parrafo git">
+            <i><strong class="palabra-negrita">Git</strong></i> es un sistema de control de versiones que permite a los
             desarrolladores rastrear cambios en su código, colaborar en
             proyectos y gestionar diferentes versiones del software de manera
             eficiente.
@@ -109,17 +124,18 @@
     <section class="class-icons">
 
       <div class="icon-facebook">
-        <img src="/01-mi-primera-web/img/icon_35.png" alt="Icono Facebook" class="facebook" />
+        <a href="https://www.facebook.com/profile.php?id=100090779631687"><img src="/01-mi-primera-web/img/icon_35.png"
+            alt="Icono Facebook" class="icons facebook" /></a>
       </div>
 
       <div class="icon-youtube">
         <a href="https://www.youtube.com/@ivanmadrid6738">
-          <img src="/01-mi-primera-web/img/icon_38.png" alt="Icono youtube" class="youtube" /></a>
+          <img src="/01-mi-primera-web/img/icon_38.png" alt="Icono youtube" class="icons  youtube" /></a>
       </div>
 
       <div class="icon-linkedin">
         <a href="https://www.linkedin.com/feed/">
-          <img src="/01-mi-primera-web/img/icon_37.png" alt="Icono Linkedin" class="linkedin" /></a>
+          <img src="/01-mi-primera-web/img/icon_37.png" alt="Icono Linkedin" class="icons  linkedin" /></a>
       </div>
 
     </section>
